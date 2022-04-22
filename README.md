@@ -1,7 +1,7 @@
 ![Meta PyCon Banner](https://github.com/MarcoMontaltoMonella/pycon2022-mysql/blob/main/meta-pycon-header-transparent.png#gh-light-mode-only)
 ![Meta PyCon Banner](https://github.com/MarcoMontaltoMonella/pycon2022-mysql/blob/main/meta-pycon-header-dark.png#gh-dark-mode-only)
 
-![Discord](https://img.shields.io/discord/964334241875914792?label=Discord%20Server&logo=Discord&logoColor=%235865F2&style=plastic) | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/_/python/3.8?color=%232496ED&label=Python%203.8&logo=Docker&logoColor=%232496ED&style=plastic) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/mysql/mysql-server/8.0.28?color=%232496ED&label=MySQL%208&logo=Docker&logoColor=%232496ED&style=plastic)
+![Discord](https://img.shields.io/discord/964334241875914792?label=Discord%20Server&logo=Discord&logoColor=%235865F2&style=plastic) | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/_/python/3.8?color=3294DF&label=Python%203.8&logo=Docker&logoColor=232496ED&style=plastic) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/mysql/mysql-server/8.0.28?color=3294DF&label=MySQL%208&logo=Docker&logoColor=232496ED&style=plastic)
 
 Learn how Meta scaled MySQL automation and fleet management using Python and how you can reuse similar design and techniques to scale your DBMS.
 
