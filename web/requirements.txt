@@ -1,0 +1,7 @@
+asgiref==3.5.0
+cryptography==36.0.2
+Django==3.2.12
+pytz==2021.3
+pymysql==1.0.2
+sqlparse==0.4.2
+typing-extensions==4.1.1

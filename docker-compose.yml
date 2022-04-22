@@ -1,0 +1,69 @@
+services:
+
+  db1:
+    build: ./db
+    container_name: db1
+    hostname: db1
+    ports:
+      - '1441:3306'
+    restart: unless-stopped
+    # sets the network address which the member provides for connections from other members, specified as a host:port formatted string.
+    command: [ "mysqld", "--loose-group-replication-local-address=db1:6606" ]
+    env_file: .env
+    volumes:
+      - ./db/configs/my-cnf:/etc/mysql/my.cnf
+      - ./db/scripts:/docker-entrypoint-initdb.d
+      - ./db/data/db1:/var/lib/mysql
+    healthcheck:
+      test: "mysqladmin ping -u root -p$${MYSQL_ROOT_PASSWORD}"
+      interval: 2s
+      retries: 20
+    networks:
+      - hostnetwork
+
+  web:
+    build: ./web
+    container_name: web
+    volumes:
+      - ./web:/cheese
+    env_file: .env
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db1
+    healthcheck:
+      test: "curl http://0.0.0.0:8000/about"
+      interval: 60s
+      retries: 20
+    networks:
+      - hostnetwork
+
+  backup:
+    build: ./backup
+    container_name: backup
+    volumes:
+      - ./backup:/backup
+    env_file: .env
+    ports:
+      - "8001:8001"
+    depends_on:
+      - db1
+    networks:
+      - hostnetwork
+
+  healthcheck:
+    build: ./healthcheck
+    container_name: healthcheck
+    volumes:
+      - ./healthcheck:/healthcheck
+    env_file: .env
+    ports:
+      - "8002:8002"
+    depends_on:
+      - db1
+    networks:
+      - hostnetwork
+
+networks:
+  hostnetwork:
+    external: false

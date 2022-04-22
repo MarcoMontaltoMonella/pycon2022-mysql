@@ -1,0 +1,434 @@
+2022-04-09T00:30:22.597686Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.28) initializing of server in progress as process 17
+2022-04-09T00:30:22.606688Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-09T00:30:22.628578Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-09T00:30:24.052136Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-09T00:30:24.743419Z 0 [Warning] [MY-013501] [Server] Ignoring --plugin-load[_add] list as the server is running with --initialize(-insecure).
+2022-04-09T00:30:25.924406Z 0 [Warning] [MY-000067] [Server] unknown variable 'loose_group_replication_start_on_boot=OFF'.
+2022-04-09T00:30:25.924926Z 0 [Warning] [MY-000067] [Server] unknown variable 'loose_group_replication_group_name=aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee'.
+2022-04-09T00:30:25.925397Z 0 [Warning] [MY-000067] [Server] unknown variable 'loose_group_replication_group_seeds=db1:6606,db2:6606,db3:6606'.
+2022-04-09T00:30:25.925749Z 0 [Warning] [MY-000067] [Server] unknown variable 'loose_group_replication_single_primary_mode=ON'.
+2022-04-09T00:30:25.926178Z 0 [Warning] [MY-000067] [Server] unknown variable 'loose_group_replication_enforce_update_everywhere_checks=OFF'.
+2022-04-09T00:30:25.926610Z 0 [Warning] [MY-000067] [Server] unknown variable 'loose-group-replication-local-address=db1:6606'.
+2022-04-09T00:30:25.932952Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2022-04-09T00:30:30.008543Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 84
+2022-04-09T00:30:30.017802Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-09T00:30:30.043934Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-09T00:30:30.533280Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-09T00:30:30.949538Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-09T00:30:30.950000Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-09T00:30:31.014668Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2022-04-09T00:30:31.014931Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 0  MySQL Community Server - GPL.
+2022-04-09T00:30:33.729380Z 16 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.28).
+2022-04-09T00:30:35.721902Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-09T00:30:35.977785Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-09T00:30:35.983781Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-09T00:30:35.997115Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-09T00:30:36.381371Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-09T00:30:36.732751Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-09T00:30:36.733375Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-09T00:30:36.795262Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-09T00:30:36.795588Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-09T00:30:59.081714Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-09T00:30:59.087522Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-09T00:30:59.106082Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-09T00:31:00.347223Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-09T00:31:00.620179Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2022-04-09T00:31:00.684326Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2022-04-09T00:31:00.801087Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-09T00:31:00.801877Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-09T00:31:00.892124Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-09T00:31:00.892222Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-09T00:31:15.273392Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-09T00:31:16.039953Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-09T00:31:34.791324Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-09T00:31:34.802177Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-09T00:31:34.821060Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-09T00:31:35.409145Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-09T00:31:35.737952Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-09T00:31:35.738639Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-09T00:31:35.813852Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-09T00:31:35.813874Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-09T00:36:37.070121Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-09T00:36:38.264400Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-09T00:37:00.498071Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-09T00:37:00.503724Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-09T00:37:00.522459Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-09T00:37:01.276014Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-09T00:37:01.647383Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-09T00:37:01.648016Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-09T00:37:01.728594Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-09T00:37:01.728648Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-09T00:52:00.877143Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-09T00:52:02.190627Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-09T00:53:13.745691Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-09T00:53:13.753285Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-09T00:53:13.775761Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-09T00:53:14.465919Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-09T00:53:14.894406Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-09T00:53:14.895199Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-09T00:53:14.986492Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-09T00:53:14.986747Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-09T00:53:26.636912Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-09T00:53:28.210633Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-09T00:55:02.070720Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-09T00:55:02.078345Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-09T00:55:02.107895Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-09T00:55:02.824558Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-09T00:55:03.296174Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-09T00:55:03.296808Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-09T00:55:03.378062Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-09T00:55:03.378191Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-09T00:55:29.096478Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-09T00:55:30.568483Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-14T22:36:28.705143Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-14T22:36:28.711960Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-14T22:36:28.735254Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-14T22:36:29.502657Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-14T22:36:29.892907Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-14T22:36:29.893586Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-14T22:36:30.004051Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-14T22:36:30.004160Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-14T22:39:45.481876Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-14T22:39:46.412199Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-14T22:42:33.589905Z 0 [Warning] [MY-010091] [Server] Can't create test file /var/lib/mysql/mysqld_tmp_file_case_insensitive_test.lower-test
+2022-04-14T22:42:33.590094Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-14T22:42:33.594373Z 0 [Warning] [MY-010091] [Server] Can't create test file /var/lib/mysql/mysqld_tmp_file_case_insensitive_test.lower-test
+2022-04-14T22:42:33.594394Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-14T22:42:33.621194Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-14T22:42:33.651343Z 0 [Warning] [MY-010091] [Server] Can't create test file /var/lib/mysql/mysqld_tmp_file_case_insensitive_test.lower-test
+2022-04-14T22:42:33.651459Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-14T22:42:33.658034Z 0 [Warning] [MY-010091] [Server] Can't create test file /var/lib/mysql/mysqld_tmp_file_case_insensitive_test.lower-test
+2022-04-14T22:42:33.658079Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-14T22:42:33.682273Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-14T22:42:33.683860Z 0 [Warning] [MY-010091] [Server] Can't create test file /var/lib/mysql/mysqld_tmp_file_case_insensitive_test.lower-test
+2022-04-14T22:42:33.683975Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-14T22:42:33.687919Z 0 [Warning] [MY-010091] [Server] Can't create test file /var/lib/mysql/mysqld_tmp_file_case_insensitive_test.lower-test
+2022-04-14T22:42:33.687941Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-14T22:42:33.719126Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-14T22:42:33.712196Z 0 [Warning] [MY-010091] [Server] Can't create test file /var/lib/mysql/mysqld_tmp_file_case_insensitive_test.lower-test
+2022-04-14T22:42:33.712383Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-14T22:42:33.717972Z 0 [Warning] [MY-010091] [Server] Can't create test file /var/lib/mysql/mysqld_tmp_file_case_insensitive_test.lower-test
+2022-04-14T22:42:33.718004Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-14T22:42:33.753167Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-14T22:42:33.869013Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:33.869218Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:33.874683Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:34.369659Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-14T22:42:34.740079Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-14T22:42:34.740641Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-14T22:42:34.812822Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-14T22:42:34.812815Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-14T22:42:34.873183Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:34.874125Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:34.875733Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:35.874518Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:35.875124Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:35.876783Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:36.875419Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:36.876126Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:36.877802Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:37.876628Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:37.877093Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:37.878852Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:38.878714Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:38.879797Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:38.880633Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:39.882264Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:39.882647Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:39.883683Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:40.886122Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:40.886600Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:40.887607Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:41.888542Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:41.889338Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:41.890142Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:42.890191Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:42.891253Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:42.892102Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:43.892715Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:43.892957Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:43.893689Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:44.897092Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:44.897092Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:44.897148Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:45.899331Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:45.900277Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:45.901541Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:46.903019Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:46.903019Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:46.903144Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:47.870613Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:47.871396Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:47.872410Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:48.873753Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:48.873753Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:48.873753Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:49.875528Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:49.876115Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:49.877240Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:50.877158Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:50.877347Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:50.879000Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:51.878988Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:51.879881Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:51.880822Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:52.881455Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:52.881455Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:52.881946Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:53.884033Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:53.884145Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:53.884947Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:54.885534Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:54.886161Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:54.886497Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:55.887504Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:55.888453Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:55.889319Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:56.891337Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:56.891337Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:56.892086Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:57.893732Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:57.895666Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:57.894642Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:58.896323Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:58.898018Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:58.897183Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:59.901143Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:59.901143Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:42:59.901152Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:00.906146Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:00.906146Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:00.906591Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:01.908771Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:01.909877Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:01.910865Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:02.911120Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:02.912282Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:02.913631Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:03.914784Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:03.914784Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:03.915052Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:04.916629Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:04.917654Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:04.918562Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:05.920089Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:05.921306Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:05.920366Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:06.924042Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:06.924042Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:06.924208Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:07.925997Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:07.927033Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:07.928008Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:08.927881Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:08.929031Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:08.929868Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:09.933826Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:09.933826Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:09.934112Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:10.936839Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:10.937983Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:10.939099Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:11.939302Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:11.939366Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:11.940053Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:12.940915Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:12.941665Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:12.942419Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:13.962686Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:13.963138Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:13.963741Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:14.963972Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:14.964712Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:14.965611Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:15.966150Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:15.966750Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:15.967567Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:16.968747Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:16.970014Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:16.970980Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:17.485905Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-14T22:43:17.936439Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:17.937257Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:17.953983Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./#ib_16384_0.dblwr error: 11
+2022-04-14T22:43:18.064222Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-14T22:43:18.937990Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:18.939060Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:19.450013Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-14T22:43:19.832260Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-14T22:43:19.832808Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-14T22:43:19.897756Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-14T22:43:19.897861Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-14T22:43:19.898852Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-14T22:43:19.939377Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:19.940163Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:20.941163Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:20.962136Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./#ib_16384_0.dblwr error: 11
+2022-04-14T22:43:21.337989Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-14T22:43:21.942475Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:22.375177Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-14T22:43:22.685825Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-14T22:43:22.687162Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-14T22:43:22.770524Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-14T22:43:22.770664Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-14T22:43:22.792417Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-14T22:43:22.943891Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:23.963276Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./#ib_16384_0.dblwr error: 11
+2022-04-14T22:43:24.241952Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-14T22:43:25.401981Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-14T22:43:25.771827Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-14T22:43:25.772337Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-14T22:43:25.840115Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-14T22:43:25.840319Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-14T22:43:25.841083Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-14T22:43:27.270320Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-14T22:43:38.180976Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-14T22:43:38.187787Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-14T22:43:38.210346Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-14T22:43:38.248182Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-14T22:43:38.254525Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-14T22:43:38.270030Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-14T22:43:38.384302Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:38.873317Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-14T22:43:39.245206Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-14T22:43:39.245783Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-14T22:43:39.331322Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-14T22:43:39.331413Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-14T22:43:39.385403Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:40.386381Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:41.387343Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:42.388869Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:43.390939Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:44.393533Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:45.395880Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:46.396925Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:47.363526Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:48.364669Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:49.366081Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:50.367446Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:51.369048Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:52.371080Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:53.372359Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:54.374618Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:55.377573Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:56.379760Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:57.383284Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:58.386235Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:43:59.388552Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:00.390661Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:01.391873Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:02.393886Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:03.398568Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:04.403458Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:05.407938Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:06.409949Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:07.412368Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:08.419081Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:09.423534Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:10.426239Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:11.428518Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:12.431537Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:13.434057Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:14.437103Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:15.439588Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:16.441488Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:17.409183Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:18.411718Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:19.414072Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:20.421182Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:21.424923Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:22.429548Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:23.433205Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:24.435057Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:25.436487Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:26.437848Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:27.441269Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:28.443423Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:29.445690Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:30.448650Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:31.454056Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:32.457826Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:33.460639Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:34.463861Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:35.465290Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:36.466907Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:37.469001Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:38.470879Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:39.475788Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:40.478341Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:41.480446Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:42.482346Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:43.486785Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:44.506925Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:45.511937Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:46.514451Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:47.481846Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:48.483955Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:49.487402Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:50.491497Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:51.495281Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:52.500294Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:53.502598Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:54.508383Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:55.512385Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:56.519658Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:57.524226Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:58.526176Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:44:59.530017Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:45:00.536954Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:45:01.540047Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:45:02.543012Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:45:03.544672Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:45:04.546799Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:45:05.549125Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:45:06.551618Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2022-04-14T22:45:07.034719Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-14T22:45:07.570371Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./#ib_16384_0.dblwr error: 11
+2022-04-14T22:45:07.617587Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-14T22:45:09.044541Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-14T22:45:09.458278Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-14T22:45:09.459467Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-14T22:45:09.551312Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-14T22:45:09.551376Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-14T22:45:09.552761Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-14T22:45:10.949094Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-14T22:45:36.933693Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-14T22:45:36.942251Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-14T22:45:36.966264Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-14T22:45:37.732108Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-14T22:45:38.114370Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-14T22:45:38.114990Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-14T22:45:38.197768Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-14T22:45:38.197988Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-14T22:47:32.981358Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-14T22:47:34.505407Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-14T23:32:11.038241Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-14T23:32:11.043998Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-14T23:32:11.063298Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-14T23:32:11.777454Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-14T23:32:12.194766Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-14T23:32:12.195505Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-14T23:32:12.295172Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-14T23:32:12.295591Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-16T01:07:37.770433Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-16T01:07:37.781715Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-16T01:07:37.812727Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-16T01:07:38.742898Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-16T01:07:39.333898Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2022-04-16T01:07:39.346736Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2022-04-16T01:07:39.791171Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-16T01:07:39.791755Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-16T01:07:39.884155Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-16T01:07:39.884296Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-16T01:08:34.300769Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-16T01:08:35.484415Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-04-16T01:10:08.021892Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-04-16T01:10:08.028589Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-04-16T01:10:08.053312Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-04-16T01:10:08.802175Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-04-16T01:10:09.226149Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-04-16T01:10:09.226912Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-04-16T01:10:09.327691Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-04-16T01:10:09.327943Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2022-04-16T01:28:50.017584Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.28).
+2022-04-16T01:28:51.475733Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
