@@ -155,4 +155,4 @@ cython_debug/
 # db/data/db*
 
 # Backup data
-backup/backup_storage/
+backup/backup_storage/backup_*
