@@ -20,7 +20,7 @@ The workshop will have follow-along examples to give you insights and make you l
    1. Troubleshooting channel: [here](https://discord.com/channels/964334241875914792/964589394751283240)
 
 ## Get started 🚀
-1. Clone this repo
+1. Clone this repo (`git clone git@github.com:MarcoMontaltoMonella/pycon2022-mysql.git`)
    1. The initial state of the system can be seen in [here](https://github.com/MarcoMontaltoMonella/pycon2022-mysql/blob/main/initial-state-diagram.png)
 2. From within the repo, run `docker-compose up --build`
    1. You should be seeing a front-end page at http://0.0.0.0:8000
